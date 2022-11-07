@@ -1,6 +1,5 @@
 .planes {
     background-color: var(--background-ceniza-claro);
-    
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -9,14 +8,15 @@
     color: var(--fuente-ceniza-oscuro);
     font-size: 1.5rem;
     font-family: var(--montserrat);
-
+    font-weight: 900;
     margin-bottom: 1.25rem;
 }
 
 .planes__tarjetas {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .tarjetas {

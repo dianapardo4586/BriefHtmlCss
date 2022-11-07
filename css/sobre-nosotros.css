@@ -1,4 +1,6 @@
-.sobre-nosotros {
+.sobre_nosotros {
+    display: flex;
+    flex-direction: row;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -18,14 +20,10 @@
     margin-bottom: 1rem;
 }
 
-.sobre_nosotros__plataformas {
+.sobre_nosotros__operadores {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 1rem;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
 }
 
-.sobre-nosotros {
-    color: var(--fuente-ceniza-oscuro);
-    font-weight: 700;
-}

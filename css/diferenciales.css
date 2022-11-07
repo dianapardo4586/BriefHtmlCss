@@ -1,6 +1,5 @@
 .diferenciales {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 3.5rem 470px;
 }
 
 .diferenciales__lista {
@@ -30,13 +29,14 @@
 }
 
 .diferenciales__item-reloj {
-    background-image: url(../img/icono-reloj.png);
+    background-image: url(../img/icono-reloj2.png);
 }
 
 .diferenciales__item-dinero {
-    background-image: url(../img/icono-dinero.png);
+    background-image: url(../img/icono-dinero2.png);
 }
 
 .diferenciales__item-quimica {
     background-image: url(../img/icono-quimica.png);
 }
+

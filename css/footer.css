@@ -15,10 +15,8 @@
 
 .footer__midia {
     display: block;
-
     width: 42px;
     height: 42px;
-
     margin: 2rem 1rem;
 }
 
@@ -32,6 +30,10 @@
 
 .footer__enlace {
     display: inline-block;
-
     margin: 0 .5rem .7rem;
+}
+
+.footer__logo{
+    width: 142px;
+    height: 142px;
 }
